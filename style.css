@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.voice-search {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 40px;
+  padding: 10px 30px;
+  color: #fff;
+  background: red;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: green;
+  cursor: pointer;
+}
+
+.action {
+  margin-top: 20px;
+  color: red;
+}
+
+.result {
+  margin-top: 20px;
+  /* border: 1px red solid; */
+  border-radius: 5px;
+  padding: 10px 30px;
+
+}
